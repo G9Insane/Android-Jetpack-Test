@@ -40,6 +40,7 @@ class MainFragment : Fragment() {
             // Navigate to the login destination
             view?.let { Navigation.findNavController(it).navigate(R.id.end_action) }
         }
+
     }
 
 }
