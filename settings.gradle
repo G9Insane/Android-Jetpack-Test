@@ -1,1 +1,1 @@
-include ':app-menu-fragment'
+include ':app-menu-fragment', ':anko'
