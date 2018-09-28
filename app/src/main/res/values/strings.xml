@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">JetPack</string>
-    <string name="navigate">Navigate</string>
-    <string name="home">Home</string>
-    <string name="dashboard">DashBoard</string>
-    <string name="notification">Notification</string>
-</resources>
