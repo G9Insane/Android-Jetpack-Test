@@ -3,5 +3,8 @@
     <color name="colorPrimary">#d2ae6d</color>
     <color name="colorPrimaryDark">#9f7f40</color>
     <color name="colorAccent">#ffe09c</color>
+    <color name="colorRPrimary">#00bfff</color>
+    <color name="colorRPrimaryDark">#008fcc</color>
+    <color name="colorRAccent">#6af2ff</color>
     <color name="white">#FFFFFF</color>
 </resources>
