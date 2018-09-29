@@ -5,8 +5,6 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
 
-
-
     defaultConfig {
         applicationId "id.kamiwabi.anko"
         minSdkVersion 24
@@ -26,9 +24,12 @@ android {
 
 dependencies {
 
+    implementation "com.android.support.constraint:constraint-layout:2.0.0-alpha2"
 
     implementation "org.jetbrains.anko:anko-commons:$anko_version"
     implementation "org.jetbrains.anko:anko-design:$anko_version"
+    //constraint anko
+    implementation "org.jetbrains.anko:anko-constraint-layout:$anko_version"
 
     // Anko Layouts
     implementation "org.jetbrains.anko:anko-sdk25:$anko_version"
