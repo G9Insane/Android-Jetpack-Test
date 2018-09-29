@@ -1,4 +1,4 @@
-package com.example.sagar.navigationuidemo
+package com.example.sagar.navigationuidemo.fragment
 
 
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.navigation.ui.setupWithNavController
+import com.example.sagar.navigationuidemo.R
 import kotlinx.android.synthetic.main.fragment_bottom_nav.*
 
 /**

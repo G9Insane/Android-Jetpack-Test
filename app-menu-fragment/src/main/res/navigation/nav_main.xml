@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/bottomNavFragment"
-        android:name="com.example.sagar.navigationuidemo.BottomNavFragment"
+        android:name="com.example.sagar.navigationuidemo.fragment.BottomNavFragment"
         android:label="Home"
         tools:layout="@layout/fragment_bottom_nav" />
 
     <fragment
         android:id="@+id/infoFragment"
-        android:name="com.example.sagar.navigationuidemo.InfoFragment"
+        android:name="com.example.sagar.navigationuidemo.fragment.InfoFragment"
         android:label="Info"
         tools:layout="@layout/fragment_info" />
 </navigation>

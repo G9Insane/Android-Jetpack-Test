@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/bottomNavFragmentOne"
-        android:name="com.example.sagar.navigationuidemo.BottomNavFragmentOne"
+        android:name="com.example.sagar.navigationuidemo.fragment.BottomNavFragmentOne"
         tools:layout="@layout/fragment_bottom_nav_fragment_one"/>
 
     <fragment
         android:id="@+id/bottomNavFragmentTwo"
-        android:name="com.example.sagar.navigationuidemo.BottomNavFragmentTwo"
+        android:name="com.example.sagar.navigationuidemo.fragment.BottomNavFragmentTwo"
         tools:layout="@layout/fragment_bottom_nav_fragment_two"/>
 
     <fragment
         android:id="@+id/bottomNavFragmentThree"
-        android:name="com.example.sagar.navigationuidemo.BottomNavFragmentThree"
+        android:name="com.example.sagar.navigationuidemo.fragment.BottomNavFragmentThree"
         tools:layout="@layout/fragment_bottom_nav_fragment_three"/>
 
 </navigation>
