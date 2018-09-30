@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout>
+
 <android.support.constraint.ConstraintLayout
 		android:id="@+id/drawerLayout"
 		xmlns:android="http://schemas.android.com/apk/res/android"
@@ -37,3 +39,4 @@
 
 			/>
 </android.support.constraint.ConstraintLayout>
+</layout>
