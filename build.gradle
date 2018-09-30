@@ -17,7 +17,7 @@ buildscript {
         kotlinVersion = '1.2.71'
         runnerVersion = '1.1.0-alpha3'
         supportLibraryVersion = '28.0.0'
-
+        lifecycleVersion = "1.1.1"
         //anko lib
         anko_version = '0.10.6'
     }
