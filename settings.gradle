@@ -1,1 +1,1 @@
-include ':app-menu-fragment', ':anko', ':jetpack'
+include ':app-menu-fragment', ':anko', ':jetpack', ':ktx'
