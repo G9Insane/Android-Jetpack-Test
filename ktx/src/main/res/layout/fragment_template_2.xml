@@ -1,0 +1,60 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+
+  <ImageView
+    android:id="@+id/photo_1"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginEnd="@dimen/template_margin"
+    android:background="@color/gray"
+    android:contentDescription="@string/first_image"
+    android:foreground="?attr/selectableItemBackground"
+    android:scaleType="fitXY"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:weightSum="2"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/photo_1"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+      android:id="@+id/photo_2"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_marginBottom="@dimen/template_margin"
+      android:layout_weight="1"
+      android:background="@color/gray"
+      android:contentDescription="@string/second_image"
+      android:foreground="?attr/selectableItemBackground"
+      android:scaleType="fitXY"
+      app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+      android:id="@+id/photo_3"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:background="@color/gray"
+      android:contentDescription="@string/third_image"
+      android:foreground="?attr/selectableItemBackground"
+      android:scaleType="fitXY"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
