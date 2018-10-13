@@ -11,7 +11,7 @@
             <option value="$PROJECT_DIR$/anko" />
             <option value="$PROJECT_DIR$/app-menu-fragment" />
             <option value="$PROJECT_DIR$/jetpack" />
-            <option value="$PROJECT_DIR$/ktx" />
+            <option value="$PROJECT_DIR$/lifecyclejava" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
